@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,24 +9,24 @@
     font-family: "Poppins", sans-serif;
 }
 
-:root {
+:root{
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
     --main-color: #00ffee;
 }
 
-html {
+html{
     font-size: 60%;
     overflow-x: hidden;
 }
 
-body {
+body{
     background: var(--bg-color);
     color: var(--text-color);
 }
 
-.header {
+.header{
     position: fixed;
     top: 0%;
     left: 0;
@@ -40,7 +40,7 @@ body {
     z-index: 5;
 }
 
-.logo {
+.logo{
 
     font-size: 3rem;
     color: var(--text-color);
@@ -49,7 +49,7 @@ body {
     transition: 0.3s ease;
 }
 
-.logo:hover {
+.logo:hover{
     transform: scale(1.1);
 }
 
